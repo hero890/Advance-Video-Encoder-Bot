@@ -12,9 +12,6 @@
 
 
 ## YOUTUBE 🌟 
-youtube_icon_url = "https://img.icons8.com/fluent/48/000000/youtube-play.png"
-youtube_icon = load_image_from_url(youtube_icon_url)
-
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=FOR+HELP+WATCH+YOUTUBE+VIDEO!)
