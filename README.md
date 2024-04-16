@@ -2,18 +2,13 @@
   <img src="https://graph.org/file/7b5b64db21e515395aeb3.jpg" alt="Tech_HEro-Filter-Bot Logo">
 </p>
 <h1 align="center">
-  TECH HERO FILTER BOT
+  TECH HERO Advance Video Encoder Bot
 </h1>
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+TECH+HERO+Filter+Bot!)
-</p>
-
-
 
 ## Don't Forget To Give A Star 🌟
 
-
-
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+TECH+HERO+Filter+Bot!)
+</p>
 
 ## YOUTUBE 🌟 
 </h1>
