@@ -22,8 +22,10 @@ async def Handle_StartMsg(bot:Client, msg:Message):
     if msg.chat.type == enums.ChatType.SUPERGROUP and not await db.is_user_exist(msg.from_user.id):
         botusername = await bot.get_me()
         btn = [
-            [InlineKeyboardButton(text='⚡ BOT PM', url=f'https://t.me/{botusername.username}')],
-            [InlineKeyboardButton(text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Snowball_Official')]
+            [InlineKeyboardButton(text='⚡ BOT PM', url=f'https://t.me/{botusername.username}')],[
+                InlineKeyboardButton( '💝 movies ', url='https://t.me/aapna_Movies')
+            ],
+            [InlineKeyboardButton(text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/+6LwHBLWZc3IyMTU1')]
         ]
 
         await Snowdev.edit(text=Txt.GROUP_START_MSG.format(msg.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
@@ -31,7 +33,10 @@ async def Handle_StartMsg(bot:Client, msg:Message):
     else:
         btn = [
             [InlineKeyboardButton(text='❗ Hᴇʟᴘ', callback_data='help'), InlineKeyboardButton(text='🌨️ Aʙᴏᴜᴛ', callback_data='about')],
-            [InlineKeyboardButton(text='📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/AIORFT'), InlineKeyboardButton(text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Snowball_Official')]
+            [
+                InlineKeyboardButton( '💝 movies ', url='https://t.me/aapna_Movies')
+            ],
+            [InlineKeyboardButton(text='📢 Uᴘᴅᴀᴛᴇs', url='https://t.me/+6LwHBLWZc3IyMTU1'), InlineKeyboardButton(text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/+6LwHBLWZc3IyMTU1')]
         ]
 
         if Config.START_PIC:
@@ -52,7 +57,10 @@ async def Files_Option(bot:Client, message:Message):
         botusername = await bot.get_me()
         btn = [
             [InlineKeyboardButton(text='⚡ BOT PM', url=f'https://t.me/{botusername.username}')],
-            [InlineKeyboardButton(text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/Snowball_Official')]
+            [
+                InlineKeyboardButton( '💝 movies ', url='https://t.me/aapna_Movies')
+            ],
+            [InlineKeyboardButton(text='💻 Dᴇᴠᴇʟᴏᴘᴇʀ', url='https://t.me/+6LwHBLWZc3IyMTU1')]
         ]
 
         return await SnowDev.edit(text=Txt.GROUP_START_MSG.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
@@ -66,6 +74,9 @@ async def Files_Option(bot:Client, message:Message):
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
 
         buttons = [[InlineKeyboardButton("Rᴇɴᴀᴍᴇ 📝", callback_data=f"rename-{message.from_user.id}")],
+                   [
+                    InlineKeyboardButton( '💝 movies ', url='https://t.me/aapna_Movies')
+                   ],
                    [InlineKeyboardButton("Cᴏᴍᴘʀᴇss 🗜️", callback_data=f"compress-{message.from_user.id}")]]
         await SnowDev.edit(text=text, reply_markup=InlineKeyboardMarkup(buttons))
         
@@ -77,6 +88,9 @@ async def Files_Option(bot:Client, message:Message):
 
         text = f"""**__What do you want me to do with this file.?__**\n\n**File Name** :- `{filename}`\n\n**File Size** :- `{filesize}`"""
         buttons = [[InlineKeyboardButton("Rᴇɴᴀᴍᴇ 📝", callback_data=f"rename-{message.from_user.id}")],
+                   [
+                    InlineKeyboardButton( '💝 movies ', url='https://t.me/aapna_Movies')
+                   ],
                    [InlineKeyboardButton("Cᴏᴍᴘʀᴇss 🗜️", callback_data=f"compress-{message.from_user.id}")]]
         await SnowDev.edit(text=text, reply_markup=InlineKeyboardMarkup(buttons))
 
