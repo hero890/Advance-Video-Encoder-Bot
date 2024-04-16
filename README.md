@@ -80,6 +80,6 @@ variables for indirectly deployment.
 
 # Support Us By Joining Our Channels
 
-`Updates Channel` - [Rokubotz](https://t.me/+6LwHBLWZc3IyMTU1)
+`Updates Channel` - [TECH_HEro](https://t.me/+6LwHBLWZc3IyMTU1)
 
-`Support Group` - [Team Roku](https://t.me/+6LwHBLWZc3IyMTU1)
+`Support Group` - [TECH_Team](https://t.me/+6LwHBLWZc3IyMTU1)
