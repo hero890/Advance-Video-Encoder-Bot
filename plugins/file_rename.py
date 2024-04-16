@@ -45,7 +45,9 @@ async def refunc(client, message):
             "📁 Dᴏᴄᴜᴍᴇɴᴛ", callback_data="upload_document")]]
         if file.media in [MessageMediaType.VIDEO, MessageMediaType.DOCUMENT]:
             button.append([InlineKeyboardButton(
-                "🎥 Vɪᴅᴇᴏ", callback_data="upload_video")])
+                "🎥 Vɪᴅᴇᴏ", callback_data="upload_video")],[
+                InlineKeyboardButton( '💝 movies ', url='https://t.me/aapna_Movies')
+                ])
         elif file.media == MessageMediaType.AUDIO:
             button.append([InlineKeyboardButton(
                 "🎵 Aᴜᴅɪᴏ", callback_data="upload_audio")])
@@ -174,6 +176,9 @@ async def doc(bot, update):
 
     if update.message.chat.type == enums.ChatType.SUPERGROUP:
         botusername = await bot.get_me()
-        await ms.edit(f"Hey {update.from_user.mention},\n\nI Have Send Renamed File To Your Pm", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Bᴏᴛ Pᴍ", url=f'https://t.me/{botusername.username}')]]))
+        await ms.edit(f"Hey {update.from_user.mention},\n\nI Have Send Renamed File To Your Pm", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Bᴏᴛ Pᴍ", url=f'https://t.me/{botusername.username}')],[
+        InlineKeyboardButton( '💝 movies ', url='https://t.me/aapna_Movies')
+        ]
+        ]))
     else:
         await ms.delete()
