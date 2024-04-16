@@ -7,7 +7,7 @@
 
 ## Don't Forget To Give A Star 🌟
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+TECH+HERO+Filter+Bot!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+TECH+HERO+Advance+Video+Encoder+Bot!)
 </p>
 
 ## YOUTUBE 🌟 
