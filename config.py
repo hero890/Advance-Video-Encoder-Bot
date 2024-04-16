@@ -20,7 +20,7 @@ class Config(object):
     ADMIN = int(os.environ.get("ADMIN", "6287591671")) # ⚠️ Required
     LOG_CHANNEL = int(os.environ.get('LOG_CHANNEL', '-1002022119783')) # ⚠️ Required
     BOT_UPTIME = BOT_UPTIME  = time.time()
-    START_PIC = os.environ.get("START_PIC", "https://graph.org/file/15e82d7e665eccc8bd9c5.jpg, https://graph.org/file/758ac2c9e68cb0ab7d47f.jpg, https://graph.org/file/701ff72fb43d85e073f03.jpg, https://graph.org/file/1cd7d4a6e8d57e9a3430f.jpg, https://graph.org/file/7f4a9dba475bb0e832ef9.jpg")
+    START_PIC = os.environ.get("START_PIC", "https://graph.org/file/15e82d7e665eccc8bd9c5.jpg")
 
     # wes response configuration     
     WEBHOOK = bool(os.environ.get("WEBHOOK", True))
