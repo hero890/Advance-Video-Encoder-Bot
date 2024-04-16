@@ -1,5 +1,22 @@
+<p align="center">
+  <img src="https://graph.org/file/7b5b64db21e515395aeb3.jpg" alt="Tech_HEro-Filter-Bot Logo">
+</p>
+<h1 align="center">
+  TECH HERO FILTER BOT
+</h1>
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+TECH+HERO+Filter+Bot!)
+</p>
+
 ## Don't Forget To Give A Star 🌟
 
+</h1>
+
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=FOR+HELP+WATCH+YOUTUBE+VIDEO!)
+</p>
+
+## YOUTUBE ☆
+- `TECH_HERO` [VIDEO LINK](https://www.youtube.com/channel/UC1YurCQcZMnWRnhTv-G8aDw) 
 
 # Advance Video Encoder Bot
 
@@ -15,7 +32,6 @@
  - Supports Broadcasts.
  - Set custom caption.
  - Has a custom Start-up pic.
- - Force subscribe available.
  - Supports ulimited renaming at a time.
  - Supports group encoding (add bot to group and give all admin permission except remain anonymous)
 
@@ -56,15 +72,14 @@ variables for indirectly deployment.
 - `ADMIN` - Put Id Of Auth Users with a space between it, Those are able to use bot.
 - `DB_URL` - Put Mongo Db Url .
 - `LOG_CHANNEL` - Put Id Of Log Channel.
-- `FORCE_SUB` - Put Id Of Auth Channel/Group , Those are able to use bot.
 - `BOT_TOKEN` - Bot token, {get it from [BotFather](t.me/BotFather).}
 
 ## Created By☆
-- `Snowball` 
+- `Tech_HEro` 
 
 
 # Support Us By Joining Our Channels
 
-`Updates Channel` - [Rokubotz](https://t.me/Rokubotz)
+`Updates Channel` - [Rokubotz](https://t.me/+6LwHBLWZc3IyMTU1)
 
-`Support Group` - [Team Roku](https://t.me/Team_Roku)
+`Support Group` - [Team Roku](https://t.me/+6LwHBLWZc3IyMTU1)
